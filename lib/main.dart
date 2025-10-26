@@ -11,13 +11,13 @@ void main() {
         ChangeNotifierProvider(create: (_) => AssemblyLinesProvider()),
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
       ],
-      child: const AssemblyLineApp(),
+      child: const MyApp(),
     ),
   );
 }
 
-class AssemblyLineApp extends StatelessWidget {
-  const AssemblyLineApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
