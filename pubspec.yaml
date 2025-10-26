@@ -1,0 +1,22 @@
+name: assembly_line_project
+description: Assembly Line manager app (SQLite + Provider)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.8
+  path: ^1.8.3
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  provider: ^6.0.5
+
+flutter:
+  uses-material-design: true
